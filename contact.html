@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fideliblog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!--CABEÇALHO DO SITE-->
+    <header>
+        <h1>Fideliblog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tips.html">Dicas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CONTEUDO DO SITE-->
+    <main>
+        <h2>Fale Conosco</h2>
+  
+        <p>Não encontrou o materia que procurava? Entre em contato conosco, basta preencher o formulario que nossa equipe tera o prazer de responder seu e-mail.</p>
+
+        <form action="recebecontato.html" method="get">
+            <!--AQUI E USADO O GET PARA CAPTAR DADOS E COLOCAR AS INFORMAÇÕES COMO DADOS VALIDOS NO CAMPOS NOME (text), E-MAIL (TEM QUE TER O SINAL DE @ PARA VALIDAR)-->
+            <label for="name">Nome: </label>
+            <input type="text" id="name" autocomplete="off" required>
+            <br> <!--ESSA TAG QUEBRA A LINHA-->
+            <label for="email">E-mail: </label>
+            <input type="email"  id="email"autocomplete="off" required>
+            <br>
+            <label for="message">Mensagem: </label> 
+            <textarea id="message"required></textarea>
+            <br>
+            <button type="=submit">Enviar</button>
+
+        </form>
+
+    </main>
+
+    <!--RODAPÉ-->
+    <footer>
+        <p>&copy; Site critado por <a href="https://www.linkedin.com/in/fagner-caetano-88430322b">Fagner Caetano</a></p>
+    </footer>
+
+</body>
+</html>
